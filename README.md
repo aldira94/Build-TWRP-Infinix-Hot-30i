@@ -53,7 +53,4 @@ jobs:
 
     - name: Unggah Hasil Build (Artifact)
       uses: actions/upload-artifact@v3
-      with:
-        name: TWRP-Infinix-Hot30i
-        path: twrp/out/target/product/X669C/recovery.img
-        
+      with:     
